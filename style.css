@@ -29,6 +29,8 @@ body{
   padding: 15px 20px 20px;
   background: #fff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  resize: both;
+  overflow: auto;
 }
 .wrapper li.active{
   cursor: move;
@@ -68,8 +70,7 @@ body{
   justify-content: space-between;
 }
 .note .details{
-  max-height: 165px;
-  overflow-y: auto;
+  overflow: auto;
 }
 .note .details::-webkit-scrollbar,
 .popup textarea::-webkit-scrollbar{
